@@ -1,40 +1,20 @@
 {
 	"schemaVersion": 1,
-	"id": "tutorialmod",
-	"version": "${version}",
-	"name": "Tutorial Mod",
-	"description": "This is a Tutorial Mod made by Kaupenjoe :)",
-	"authors": [
-		"Kaupenjoe!"
-	],
-	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
-	},
+	"id": "adaptive_weapons",
+	"version": "1.0.0",
+	"name": "AdaptiveWeapons",
+	"description": "A mod that evolves weapons based on usage",
+	"authors": ["MinexInd"],
 	"license": "MIT",
-	"icon": "assets/tutorialmod/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"net.kaupenjoe.tutorialmod.TutorialMod"
-		],
-		"client": [
-			"net.kaupenjoe.tutorialmod.TutorialModClient"
-		],
-		"fabric-datagen": [
-			"net.kaupenjoe.tutorialmod.TutorialModDataGenerator"
+			"net.minex.adaptiveweapons.AdaptiveWeapons"
 		]
 	},
-	"mixins": [
-		"tutorialmod.mixins.json"
-	],
 	"depends": {
-		"fabricloader": ">=0.14.21",
-		"minecraft": "~1.20.1",
-		"java": ">=17",
-		"fabric-api": "*"
-	},
-	"suggests": {
-		"another-mod": "*"
+		"fabricloader": ">=0.16.10",
+		"fabric": "*",
+		"minecraft": "1.20.1"
 	}
 }

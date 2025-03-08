@@ -1,4 +1,4 @@
-package net.kaupenjoe.tutorialmod.mixin;
+package net.minex.adaptiveweapons.mixin;
 
 import net.minecraft.server.MinecraftServer;
 import org.spongepowered.asm.mixin.Mixin;
